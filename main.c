@@ -9,6 +9,7 @@
 #include <readline/readline.h>
 #include <stdlib.h>
 
+//Sum function
 int sum_n(int n) {
   if (n >= 1) {
     return 1;
@@ -17,6 +18,7 @@ int sum_n(int n) {
     }
   }
 
+//Print funnction
 void print_n(char const *s, int n) {
   if (n != 0) {
     printf(s,n);
@@ -24,10 +26,11 @@ void print_n(char const *s, int n) {
   }
 }
 
+//Main function and user input and output
 int main(void) {
-  int n = atoi(readline("Enter an int: \n"));
-  printf("sum is %i \n.", sum_n(n)); 
-  char const *s = readline("Enter a string: \n");
+  int n = atoi(readline("Enter an int: "));
+  printf("sum is %i .\n", sum_n(n)); 
+  char const *s = readline("Enter a string: ");
   print_n(s, n);
-  
+
 } 
