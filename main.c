@@ -29,7 +29,7 @@ void print_n(char const *s, int n) {
 //Main function and user input and output
 int main(void) {
   int n = atoi(readline("Enter an int: "));
-  printf("sum is %i .\n", sum_n(n)); 
+  printf("sum is %i.\n", sum_n(n)); 
   char const *s = readline("Enter a string: ");
   print_n(s, n);
 
