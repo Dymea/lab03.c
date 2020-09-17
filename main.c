@@ -7,6 +7,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <readline/readline.h>
+#include <stdlib.h>
 
 int sum_n(int n) {
   if (n >= 0) {
@@ -24,7 +25,7 @@ void print_n(char *s, int n) {
 }
 
 int main(void) {
-  int n = ("Enter an int: ");
+  char n = readline(atoi("Enter an int: ");
   printf("sum is %i \n", sum_n(n)); 
   char *s = readline("Enter a string: ");
   print_n(s, n);
