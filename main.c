@@ -1,4 +1,4 @@
-// Author: Dymea Schippers
+// Author: Dymea Schippers dxs5940@psu.edu
 // Collaborator: Olivia Mandola ovm5126@psu.edu
 // Collaborator: Michael Sullivan mls6888@psu.edu
 // Section: 11R
